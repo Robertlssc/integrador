@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <h1 class="title">Contate-Nos</h1>
+            <p class="text">Por favor, preencha os formulários corretamente.</p>
+
+        </div>
+        <div class="box2">
+            <form class="box3" action="mailto:" method="post" enctype="text/plain">                
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" placeholder="Digite seu nome">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Digite Seu Email">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="message" cols="49" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <button class="button" type="submit" onclick="validaFormulario()">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script src="./contato.js"></script>
+</body>
+</html>
